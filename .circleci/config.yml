@@ -17,11 +17,11 @@ image_config: &image_config
 
   LINUX_VERSION: UBUNTU_TRUSTY
 
-  RUBY_VERSION_NUM: 2.3.1
+  RUBY_VERSION_NUM: 2.5.1
 
   # NODE_VERSION_NUM: # pick a version from https://nodejs.org/dist
 
-  PYTHON_VERSION_NUM: 3.6
+  PYTHON_VERSION_NUM: 3.6.6
 
   JAVA: false
 
