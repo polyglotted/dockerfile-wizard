@@ -45,7 +45,7 @@ jobs:
 
       - run: bash scripts/generate.sh > Dockerfile
 
-      - run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+      - run: echo "$DOCKER_PASSWORD" | docker login --username $DOCKER_USERNAME --password-stdin
 
       - run: docker build -t $ORG_NAME/$IMAGE_NAME:$IMAGE_TAG .
 
