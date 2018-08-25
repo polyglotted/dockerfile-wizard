@@ -8,7 +8,7 @@ image_config: &image_config
 
   IMAGE_NAME: rubypy
 
-  IMAGE_TAG: 1.0
+  IMAGE_TAG: latest
 
   # NOTE: if you're modifying this config.yml file manually
   # rather than using the included setup script,

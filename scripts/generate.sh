@@ -11,7 +11,8 @@ if [ ! -e $RUBY_VERSION_NUM ] ; then
     ./configure && \
     make -j4 && \
     make install && \
-    ruby -v"
+    ruby -v && \
+    gem install jekyll"
 fi
 
 if [ ! -e $NODE_VERSION_NUM ] ; then
@@ -32,7 +33,8 @@ if [ ! -e $PYTHON_VERSION_NUM ] ; then
     rm Python-$PYTHON_VERSION_NUM.tgz && \
     cd Python-$PYTHON_VERSION_NUM && \
     ./configure && \
-    make install"
+    make install && \
+    apt-get install python-pip python-dev build-essential -y"
 fi
 
 # if [ ! -e $PHP_VERSION_NUM ] ; then
