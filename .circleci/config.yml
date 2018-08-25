@@ -17,7 +17,7 @@ image_config: &image_config
 
   LINUX_VERSION: UBUNTU_TRUSTY
 
-  RUBY_VERSION_NUM: 2.6.0
+  RUBY_VERSION_NUM: 2.3.1
 
   # NODE_VERSION_NUM: # pick a version from https://nodejs.org/dist
 
